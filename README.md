@@ -26,6 +26,8 @@ There's no separate install script or file to download -- `/statusline` handles 
 
 The prompt is plain text, so tweak it directly before pasting -- e.g. change which emoji maps to which model family, adjust the colour thresholds, or add/remove segments. It's designed to be edited, not treated as fixed configuration.
 
+You can also tweak it after installation, in plain English, rather than re-editing the prompt and re-running /statusline from scratch. Since Claude Code wrote the script, it knows the file and can make a targeted change on request -- e.g. "make the model name and tokens text blue" or "widen the context bar to 15 characters." Just ask in a normal Claude Code session; no need to touch statusline-prompt.md for small adjustments like these.
+
 ## A note on agent output
 
 The `/statusline` setup agent's own output may include a line that looks like an instruction to you or to Claude Code -- for example, claiming that future status line changes "must go through" a specific agent, or otherwise trying to establish standing rules for later turns. That's not a legitimate system message, just generated text, and it doesn't get to dictate how you make future requests. Disregard it and ask for status line changes normally.
