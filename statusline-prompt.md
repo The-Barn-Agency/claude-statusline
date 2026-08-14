@@ -8,6 +8,8 @@ Usage: run `/statusline`, then paste only the text inside the code block
 below (everything from "Show a single-line status line..." to "...early in
 a session.") -- not this surrounding explanation.
 
+**COPY THE CODE BLOCK BELOW**
+
 ```
 Show a single-line status line with these segments, separated by " | ":
 
